@@ -7,9 +7,9 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "20fc52f9a88bb7bda023ef209acac095",
-      "css": "graduation-cap",
-      "code": 61853,
+      "uid": "0f99ab40ab0b4d64a74f2d0deeb03e42",
+      "css": "videocam",
+      "code": 59392,
       "src": "fontawesome"
     },
     {
@@ -19,14 +19,8 @@
       "src": "fontawesome"
     },
     {
-      "uid": "b95cfc96d48a72dd665e0ab109880b5e",
-      "css": "clipboard",
-      "code": 59392,
-      "src": "entypo"
-    },
-    {
-      "uid": "bf882b30900da12fca090d9796bc3030",
-      "css": "mail",
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
       "code": 59393,
       "src": "fontawesome"
     },
@@ -37,16 +31,28 @@
       "src": "fontawesome"
     },
     {
-      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
-      "css": "user",
-      "code": 59394,
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
       "src": "fontawesome"
     },
     {
-      "uid": "47bd87a650e95b97f947d275ed968efe",
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
       "css": "facebook-squared",
-      "code": 62222,
+      "code": 62216,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b95cfc96d48a72dd665e0ab109880b5e",
+      "css": "clipboard",
+      "code": 59394,
       "src": "entypo"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }
