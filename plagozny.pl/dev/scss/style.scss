@@ -1,0 +1,283 @@
+$primary: #fff;
+$facebookColor: #3B5998;
+$navbarColor: #37474f;
+$fontColor: #546e7a;
+
+
+// @font-face {
+// 	font-family: 'fontello';
+// 	src: url('../../fonts/font/fontello.woff2') format('woff2');
+		 
+// 	font-weight: normal;
+// 	font-style: normal;
+//   }
+
+
+body {
+	background-color: #eee;	
+}
+h2 {
+	color: $primary;
+}
+
+
+.sliderStyle {
+	button {
+		background-color: $facebookColor;
+		margin-top: 3%;
+		font-size: 14px;		
+	}
+	span {
+		padding-right: 6px;
+	}
+}
+
+nav {
+	background-color: $navbarColor !important;
+	button {
+		text-transform: none !important;
+		background-color: transparent !important;
+		box-shadow: none !important;
+	}
+	
+}
+
+.side-nav{
+	button {
+		color: #000 !important;
+	}
+}
+
+.navIcon {
+	margin-top: -12px;
+	color: #ef5350;	
+	
+}
+
+.myLogo {
+	padding-left: 2%;
+}
+
+.yellow {
+	background-color: #ffca28 !important;
+}
+
+.blue {
+	background-color: #64b5f6 !important;
+}
+
+.green {
+	background-color: #8bc34a !important;
+}
+
+.red {
+	background-color: #ef5350 !important;
+}
+
+.brown {
+	background-color: #8d6e63 !important;
+}
+
+.yellow:hover {
+	background-color: #c79a00 !important;
+}
+
+.blue:hover {
+	background-color: #2286c3 !important;
+}
+
+.green:hover {
+	background-color: #5a9216 !important;
+}
+
+.red:hover {
+	background-color: #b61827 !important;
+}
+
+.brown:hover {
+	background-color: #5f4339 !important;
+}
+
+.cards {
+	padding-bottom: 9%;
+	padding-top: 10px;
+}
+
+
+.slider {	
+	background: linear-gradient(to top , #eee, $navbarColor);	
+	text-shadow: 2px 2px 5px #37474f;
+	img {
+		background-position: 50% 40% !important;
+	}
+	button:focus {
+		background-color: $facebookColor !important;
+	}
+}
+
+
+.center {
+	align-content: center;
+	margin-top: 15%;
+}
+
+.myCard {
+	h5 {
+		color: $fontColor;
+		margin-bottom: 10%;
+	}
+	// i {
+	// 	color: $navbarColor;
+	// 	font-family: 'fontello' !important;		
+	// }
+	button {
+		 i {
+			color: #fff;
+			font-family: 'Material Icons' !important;
+		 }
+		
+	}
+	span {
+		color: $navbarColor;
+		font-size: 60px;
+	}
+}
+
+.languageSwitcherStyle {
+	font-size: 16px;
+    color: #26a69a !important;
+    display: block;
+    line-height: 22px;
+	padding: 14px 10px;
+	img {
+		width: 15px;		
+		padding-right: 3px;
+	}
+}
+
+.myMediaItem {
+	background-color: #fff !important;
+	box-shadow: #37474f;
+	color: $fontColor;
+	margin-top: 2%;
+	box-shadow: 5px 5px 10px #aaa;
+	padding-bottom: 20px !important;	
+	
+	img {
+		padding: 26px 20px 0px 20px;
+		width: 130px;			
+	}
+	h5 {
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+	p {
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	a {		
+		padding-left: 10px;		
+		color: orange;
+		text-decoration: none;
+	}	
+}
+
+.white{
+	background-color: #eee !important;
+	text-align: justify;
+	h2 {
+		color: $fontColor;
+	}
+}
+
+.col {
+	h2 {
+		color: $fontColor;
+	}
+}
+
+.edu {
+	color: #ef5350;	
+	margin-top: 25px;	
+	font-size: 60px;
+}
+
+.helper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	// position: relative;
+}
+.centeredImg {
+	// position: absolute;
+	// top: 50%;
+	// left: 50%;
+	// transform: translate(-50%, -50%);
+	
+	//vertical-align: middle;
+	
+}
+.page-footer {
+	background-color: $navbarColor !important;
+}
+
+.footer-copyright {
+	background-color: #263238 !important;
+}
+
+.fl {
+	float: left;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+td {
+	padding: 20px;
+}
+tr {	
+	img {
+		width: 45px;		
+		padding: 7px;
+	}
+}
+
+.sideNavButton {
+	padding-left: 16px;
+	font-weight: 500;
+}
+
+.contactStyle {
+	h5 {
+		color: $fontColor;
+		text-align: center;
+	}
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #8bc34a;
+	box-shadow: 0 1px 0 0 #8bc34a
+}
+
+textarea.materialize-textarea:focus:not([readonly])+label {
+	color: #8bc34a
+}
+
+input[type=email]:focus:not([readonly]){
+	border-bottom: 1px solid #8bc34a;
+	box-shadow: 0 1px 0 0 #8bc34a
+}
+
+input[type=email]:focus:not([readonly])+label {
+	color: #8bc34a
+}
+
+input[type=text]:focus:not([readonly]){
+	border-bottom: 1px solid #8bc34a;
+	box-shadow: 0 1px 0 0 #8bc34a
+}
+
+input[type=text]:focus:not([readonly])+label {
+	color: #8bc34a
+}
