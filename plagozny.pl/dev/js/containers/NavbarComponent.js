@@ -8,6 +8,7 @@ import englandImg from '../../../images/england.png';
 import LanguageSwitcherComponent from '../containers/LanguageSwitcherComponent'
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import FontAwesome from 'react-fontawesome';
 
 class NavbarComponent extends Component {
     render() {       
@@ -44,7 +45,7 @@ class NavbarComponent extends Component {
                         
                         <Dropdown trigger={
                             <Button>{I18n.t('navbar.experience')}
-                                <Icon className="navIcon" right>keyboard_arrow_down</Icon>
+                                <FontAwesome className="navIcon" name='chevron-down'/>                                                  
                             </Button>}>
                             <li>
                                 <Link to='/education'>
@@ -59,7 +60,7 @@ class NavbarComponent extends Component {
                         </Dropdown>
                         <Dropdown trigger={
                             <Button>{I18n.t('language') }
-                                <Icon className="navIcon" right>keyboard_arrow_down</Icon>
+                                <FontAwesome className="navIcon" name='chevron-down'/>
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>
@@ -88,7 +89,7 @@ class NavbarComponent extends Component {
                         </li>
                         <Dropdown trigger={
                             <Button className="sideNavButton">{I18n.t('navbar.experience')}
-                                <Icon className="navIcon" right>keyboard_arrow_down</Icon>
+                                <FontAwesome className="navIcon" name='chevron-down'/>
                             </Button>}>
                             <li>
                                 <Link to='/education'>
@@ -103,7 +104,7 @@ class NavbarComponent extends Component {
                         </Dropdown>
                         <Dropdown trigger={
                             <Button className="sideNavButton">{I18n.t('language') }
-                                <Icon className="navIcon" right>keyboard_arrow_down</Icon>
+                                <FontAwesome className="navIcon" name='chevron-down'/>
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>

@@ -21,7 +21,7 @@ export const translationObject = {
         card: {
             navigateToTab: "Zobacz"
         },
-        readFulfArticle: 'Zobacz pełny artykuł',
+        readFulfArticle: 'Zobacz pełny materiał',
         media: [
             {
                 title: "Urugwaj i Meksyk przed Rosją",

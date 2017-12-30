@@ -10,7 +10,7 @@ class HomeComponent extends Component {
     render() {       
         console.log('render home')
         return (
-            <Row className="cards">            
+            <Row className="cards paddingBottom">            
                 <Col s={12} l={2} m={2} offset="l1 m1" >
                     <CardComponent name={I18n.t('navbar.news')} iconName='futbol-o' buttonColor="yellow" /> 
                 </Col>
