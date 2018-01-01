@@ -7,8 +7,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 class HomeComponent extends Component {
-    render() {       
-        console.log('render home')
+    render() {               
         return (
             <Row className="cards paddingBottom">            
                 <Col s={12} l={2} m={2} offset="l1 m1" >

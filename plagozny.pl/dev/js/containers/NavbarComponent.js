@@ -65,7 +65,7 @@ class NavbarComponent extends Component {
                             <LanguageSwitcherComponent />
                         </Dropdown>
                     </ul>
-                    <ul class="side-nav" id="mobile-demo">
+                    <ul id="mobile-demo">
                         <li>
                             <a href='https://www.facebook.com/lagozny/' target='_blank'>{I18n.t('navbar.news')}</a>
                         </li>

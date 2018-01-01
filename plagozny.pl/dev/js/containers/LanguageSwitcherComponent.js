@@ -26,7 +26,7 @@ import {
 
 class LanguageSwitcherComponent extends Component {
     render() {
-        let langs = languages.map((current) => {
+        let langs = languages.map((current, id) => {
             let img = '';
             switch (current.key) {
                 case 'pl':
@@ -41,6 +41,7 @@ class LanguageSwitcherComponent extends Component {
             }
 
             return <li className = "languageSwitcherStyle"
+                    key={id}
                     onClick = { () => {
                             this.props.setLocale(current.key);
                         }} >
