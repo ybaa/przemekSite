@@ -42,7 +42,7 @@ class NavbarComponent extends Component {
                                 {I18n.t('navbar.media')}
                             </Link>
                         </li>
-                        
+                        <li>
                         <Dropdown trigger={
                             <Button>{I18n.t('navbar.experience')}
                                 <FontAwesome className="navIcon" name='chevron-down'/>                                                  
@@ -58,12 +58,15 @@ class NavbarComponent extends Component {
                                 </Link>                         
                             </li>
                         </Dropdown>
+                        </li>
+                        <li>
                         <Dropdown trigger={
                             <Button>{I18n.t('language') }
                                 <FontAwesome className="navIcon" name='chevron-down'/>
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>
+                        </li>
                     </ul>
                     <ul id="mobile-demo">
                         <li>
@@ -87,6 +90,7 @@ class NavbarComponent extends Component {
                                 {I18n.t('navbar.media')}
                             </Link>
                         </li>
+                        <li>
                         <Dropdown trigger={
                             <Button className="sideNavButton">{I18n.t('navbar.experience')}
                                 <FontAwesome className="navIcon" name='chevron-down'/>
@@ -102,13 +106,15 @@ class NavbarComponent extends Component {
                                 </Link>                         
                             </li>
                         </Dropdown>
+                        </li>
+                        <li>
                         <Dropdown trigger={
                             <Button className="sideNavButton">{I18n.t('language') }
                                 <FontAwesome className="navIcon" name='chevron-down'/>
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>
-                        
+                        </li>
                     </ul>
 
 
