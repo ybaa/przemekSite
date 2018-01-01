@@ -191,13 +191,13 @@ export const translationObject = {
             {
                 country: 'poland',
                 logo: 'awf',
-                description: 'Akademia Wychowania Fizycznego Józefa Piłsudzkiego w Warszawie (studia magisterskie)',
+                description: 'Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie (studia magisterskie)',
                 date: '2014-2016'
             },
             {
                 country: 'poland',
                 logo: 'awf',
-                description: 'Akademia Wychowania Fizycznego Józefa Piłsudzkiego w Warszawie (studia licencjackie)',
+                description: 'Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie (studia licencjackie)',
                 date: '2011-2014'
             },
             {
