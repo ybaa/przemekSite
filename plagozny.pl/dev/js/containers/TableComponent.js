@@ -18,6 +18,7 @@ import soccerServicesImg from '../../../images/soccerServices.png';
 import smsImg from '../../../images/sms.png';
 import sportimaImg from '../../../images/sportima.png';
 import legiaImg from '../../../images/legia.png';
+import nikeImg from '../../../images/nike.png';
 import FontAwesome from 'react-fontawesome';
 
 class TableComponent extends Component {
@@ -82,7 +83,10 @@ class TableComponent extends Component {
                     break;
                 case 'sportima':
                     clubImg = <img src={sportimaImg} />
-                    break;              
+                    break;     
+                case 'nike':
+                    clubImg = <img src={nikeImg} />
+                    break;            
                 case 'none':
                     clubImg = ''
                     break;

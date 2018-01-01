@@ -307,7 +307,7 @@ export const translationObject = {
         otherWorks: [
             {
                 country: 'poland',
-                logo: 'sms',
+                logo: 'nike',
                 description: 'Pomoc techniczna, opieka nad drużynami oraz pomoc w prowadzeniu biura zawodów podczas Mistrzostw Europy w piłce nożnej Nike Premier Cup w Łodzi',
                 date: 'maj 2009'
             },
@@ -324,7 +324,9 @@ export const translationObject = {
             subject: 'Wpisz temat',
             send: "Wyślij",
             yourEmail: 'Twój e-mail',
-        }
+        },
+        navigateToEducation: 'Przejdź do edukacji',
+        navigateToWork: "Przejdź do sekcji 'praca'"
     },
     en: {        
         language: "Language",
