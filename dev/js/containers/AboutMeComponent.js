@@ -44,3 +44,4 @@ function matchActionsToDispatch(dispatch) {
 }
 
 export default connect(mapStateToProps, matchActionsToDispatch)(AboutMeComponent)
+

@@ -64,7 +64,7 @@ nav {
 }
 
 .myLogo {
-	padding-left: 2%;
+	padding-left: 2% !important;
 }
 
 .yellow {
@@ -264,6 +264,7 @@ tr {
 	}
 }
 
+
 textarea.materialize-textarea:focus:not([readonly]) {
 	border-bottom: 1px solid #8bc34a;
 	box-shadow: 0 1px 0 0 #8bc34a
@@ -289,8 +290,4 @@ input[type=text]:focus:not([readonly]){
 
 input[type=text]:focus:not([readonly])+label {
 	color: #8bc34a
-}
-
-.contactButton {
-	width: 100%;	
 }

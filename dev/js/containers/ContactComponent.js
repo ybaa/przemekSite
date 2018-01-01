@@ -38,7 +38,7 @@ class ContactComponent extends Component {
                 </Row>
                 <Row className='paddingBottom' className='animated fadeInUp'>
                     <Col offset="m5 l5 s1" m={2} l={2} s={10}>
-                        <Button waves='light' className="contactButton green ">{I18n.t('contact.send')}<FontAwesome className="buttonIcon" name='angle-right'/></Button>
+                        <Button waves='light' className="green">{I18n.t('contact.send')}<FontAwesome className="buttonIcon" name='angle-right'/></Button>
                     </Col>
                 </Row>
 
@@ -63,3 +63,4 @@ function matchActionsToDispatch(dispatch) {
 }
 
 export default connect(mapStateToProps, matchActionsToDispatch)(ContactComponent)
+

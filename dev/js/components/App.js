@@ -24,18 +24,22 @@ require('../../scss/animate.css');
 const App = () => (
     
          <Router>
-            <div>
-            <NavbarComponent />              
-            <SliderComponent />
+           <div className='wrapper'>
+              <div>
+                <NavbarComponent />              
+                <SliderComponent />
+                
+                <Route exact path="/" component={HomeComponent} />
+                <Route path="/about" component={AboutMeComponent}/>
+                <Route path="/media" component={MediaManagerComponent}/>
+                <Route path="/contact" component={ContactComponent}/>
+                <Route path="/education" component={EducationComponent}/>
+                <Route path="/work" component={WorkComponent}/>        
+              </div>
 
-            <Route exact path="/" component={HomeComponent} />
-            <Route path="/about" component={AboutMeComponent}/>
-            <Route path="/media" component={MediaManagerComponent}/>
-            <Route path="/contact" component={ContactComponent}/>
-            <Route path="/education" component={EducationComponent}/>
-            <Route path="/work" component={WorkComponent}/>        
-
-            <FooterComponent />        
+              <div>
+                <FooterComponent />        
+              </div>
             </div>
         </Router> 
 
