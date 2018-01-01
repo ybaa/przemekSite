@@ -7,7 +7,7 @@ class EducationComponent extends Component {
     render() {       
      
         return (
-            <div>                
+            <div className='paddingBottom' >                
                 <TableComponent title="footballDevelopementTitle" education="education" icon="graduation-cap"/>
                 <TableComponent title="educationTitle" education="footballDevelopement" icon="graduation-cap"/>
             </div>

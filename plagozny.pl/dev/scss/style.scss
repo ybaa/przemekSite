@@ -13,8 +13,13 @@ $fontColor: #546e7a;
 //   }
 
 
+html {
+	position: relative;
+	min-height: 100%;
+}
 body {
 	background-color: #eee;	
+	margin: 0 0 240px;		
 }
 h2 {
 	color: $primary;
@@ -293,4 +298,12 @@ input[type=text]:focus:not([readonly])+label {
 
 .contactButton {
 	width: 100%;	
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	overflow:hidden;
 }

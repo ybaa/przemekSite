@@ -21,7 +21,7 @@ class MediaManager extends Component {
         });
         
         return (
-            <div className='animated slideInUp'>                    
+            <div className='animated slideInUp paddingBottom'>                    
                 {mediaItems}
             </div>
            

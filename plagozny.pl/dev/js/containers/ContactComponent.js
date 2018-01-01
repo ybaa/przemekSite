@@ -7,10 +7,18 @@ import { connect } from 'react-redux';
 import FontAwesome from 'react-fontawesome';
 
 class ContactComponent extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            email: '',
+            subject: '',
+            content: ''
+        }
+    }
     render() {
 
         return (
-            <div>
+            <div className='paddingBottom' >
                 <Row>
                     <Col offset="m2 l2 s1" m={8} l={8} s={10} className='animated fadeInUp'>
                         <div className='contactStyle'>
@@ -36,7 +44,7 @@ class ContactComponent extends Component {
                         </div>
                     </Col>
                 </Row>
-                <Row className='paddingBottom' className='animated fadeInUp'>
+                <Row className='animated fadeInUp'>
                     <Col offset="m5 l5 s1" m={2} l={2} s={10}>
                         <Button waves='light' className="contactButton green ">{I18n.t('contact.send')}<FontAwesome className="buttonIcon" name='angle-right'/></Button>
                     </Col>

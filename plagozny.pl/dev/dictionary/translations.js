@@ -17,23 +17,23 @@ export const translationObject = {
             title: "Moje spojrzenie na Futbol",
             linkToFacebook: "Odwiedź mój profil na facebooku"
         },
-        photosFromLegia: 'Zdjęcia użyte na stronie pochodza z www.legia.com',
+        photosFromLegia: 'Zdjęcia użyte na stronie pochodza z www.legia.com oraz własnej kolekcji',
         card: {
             navigateToTab: "Zobacz"
         },
         readFulfArticle: 'Zobacz pełny materiał',
-        media: [
-            {
-                title: "Urugwaj i Meksyk przed Rosją",
-                description: 'Andrzej Strejlau, Mateusz Borek oraz Przemysław Łagożny w rozmowie o nadchodzących meczach reprezentacji',
-                link: 'http://audycje.tokfm.pl/podcast/Urugwaj-i-Meksyk-przed-Rosja/55708',
-                imgName: 'tok'
-            },
+        media: [            
             {
                 title: "Legia Warszawa. Przemysław Łagożny o hiszpańskiej piłce i pracy analityka",
                 description: 'Specifika pracy analityka w sztabie Legii Warszawa oraz spostrzeżeniach dotyczących szkolenia młodzieży w Hiszpanii',
                 link: 'http://eurosport.interia.pl/klub-legia-warszawa/news-legia-warszawa-przemyslaw-lagozny-o-hiszpanskiej-pilce-i-pra,nId,2475387',
                 imgName: 'eurosport'
+            },
+            {
+                title: "Urugwaj i Meksyk przed Rosją",
+                description: 'Andrzej Strejlau, Mateusz Borek oraz Przemysław Łagożny w rozmowie o nadchodzących meczach reprezentacji',
+                link: 'http://audycje.tokfm.pl/podcast/Urugwaj-i-Meksyk-przed-Rosja/55708',
+                imgName: 'tok'
             },
             {
                 title: "Od LSS, przez akademię, do pierwszej drużyny",

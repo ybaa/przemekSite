@@ -103,7 +103,7 @@ class TableComponent extends Component {
         return (
             <div>    
                 <Row>                    
-                    <Col s={10} m={8} l={8} offset="s1 m2 l2">
+                    <Col s={12} m={8} l={8} offset=" m2 l2">
                     <Row className='animated fadeIn'> 
                         <Col>
                             <FontAwesome className="edu" name={this.props.icon}/>                                                

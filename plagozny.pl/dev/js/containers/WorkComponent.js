@@ -7,7 +7,7 @@ class WorkComponent extends Component {
     render() {       
      
         return (
-            <div>                
+            <div className='paddingBottom' >                
                 <TableComponent title="workTitle" education="works" icon="futbol-o"/>
                 <TableComponent title="scoutTitle" education="scouting" icon="eye"/>
                 <TableComponent title="otherWorkTitle" education="otherWorks" icon="external-link"/>

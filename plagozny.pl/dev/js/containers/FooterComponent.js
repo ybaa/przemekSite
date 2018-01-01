@@ -11,7 +11,7 @@ class FooterComponent extends Component {
     render() {       
       
         return (
-            <div>                
+            <div className='footer'>                
               <Footer copyrights="&copy; 2017 plagozny.pl"                
                 links={
                     <ul>
@@ -37,7 +37,7 @@ class FooterComponent extends Component {
                     <h5 className="white-text">plagozny.pl</h5>
                     <p className="grey-text text-lighten-4">{I18n.t('slider.title')}</p>
                     <p className="grey-text text-lighten-4">{I18n.t('photosFromLegia')}</p>
-            </Footer>;
+            </Footer>
             </div>
            
         );

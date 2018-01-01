@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Icon, Slider, Slide } from 'react-materialize';
+import { Button, Icon, Slider, Slide} from 'react-materialize';
 import { translationObject } from '../../dictionary/translations';
 import { I18n } from 'react-redux-i18n';
 import slideImg1 from '../../../images/1.png';
