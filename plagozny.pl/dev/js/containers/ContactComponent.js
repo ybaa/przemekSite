@@ -27,6 +27,16 @@ class ContactComponent extends Component {
                     </Col>
                 </Row>
                 <Row>
+                    <Col offset="m2 l2 s1" m={8} l={8} s={10} className='animated fadeInUp contactAdditional'>
+                       <h5 > Przemysław Łagożny </h5>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col offset="m2 l2 s1" m={8} l={8} s={10} className='animated fadeInUp contactAdditional'>
+                       <h5><FontAwesome name='envelope-o' />      p.lagozny92@gmail.com </h5>
+                    </Col>
+                </Row>
+                {/* <Row>
                     <Col offset="m2 l2 s1" m={8} l={8} s={10} className='animated fadeInUp'>
                         <Input type="email" label={I18n.t('contact.yourEmail')} />
                     </Col>
@@ -48,7 +58,7 @@ class ContactComponent extends Component {
                     <Col offset="m5 l5 s1" m={2} l={2} s={10}>
                         <Button waves='light' className="contactButton green ">{I18n.t('contact.send')}<FontAwesome className="buttonIcon" name='angle-right'/></Button>
                     </Col>
-                </Row>
+                </Row> */}
 
             </div>
         );

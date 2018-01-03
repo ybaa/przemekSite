@@ -16,7 +16,6 @@ import awfImg from '../../../images/awf.png';
 import wssImg from '../../../images/wss.png';
 import soccerServicesImg from '../../../images/soccerServices.png';
 import smsImg from '../../../images/sms.png';
-import sportimaImg from '../../../images/sportima.png';
 import legiaImg from '../../../images/legia.png';
 import nikeImg from '../../../images/nike.png';
 import FontAwesome from 'react-fontawesome';
@@ -80,10 +79,7 @@ class TableComponent extends Component {
                     break;
                 case 'sms':
                     clubImg = <img src={smsImg} />
-                    break;
-                case 'sportima':
-                    clubImg = <img src={sportimaImg} />
-                    break;     
+                    break;  
                 case 'nike':
                     clubImg = <img src={nikeImg} />
                     break;            
@@ -117,9 +113,7 @@ class TableComponent extends Component {
                         </Col>
                     </Row>
                     <Row className='animated slideInUp'>
-                        <Table className="striped centered">
-                          
-
+                        <Table className="striped centered">                        
                             <tbody>
                                 {tableContent}
                             </tbody>

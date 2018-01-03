@@ -3,16 +3,6 @@ $facebookColor: #3B5998;
 $navbarColor: #37474f;
 $fontColor: #546e7a;
 
-
-// @font-face {
-// 	font-family: 'fontello';
-// 	src: url('../../fonts/font/fontello.woff2') format('woff2');
-		 
-// 	font-weight: normal;
-// 	font-style: normal;
-//   }
-
-
 html {
 	position: relative;
 	min-height: 100%;
@@ -26,7 +16,7 @@ h2 {
 }
 
 .paddingBottom {
-	padding-bottom: 100px !important;
+	padding-bottom: 140px !important;
 }
 
 .sliderStyle {
@@ -140,10 +130,6 @@ nav {
 		color: $fontColor;
 		margin-bottom: 10%;
 	}
-	// i {
-	// 	color: $navbarColor;
-	// 	font-family: 'fontello' !important;		
-	// }
 	button {
 		 i {
 			color: #fff;
@@ -307,4 +293,9 @@ input[type=text]:focus:not([readonly])+label {
 	left: 0;
 	overflow:hidden;
 	min-height: 231px;
+}
+
+.contactAdditional{
+	text-align: center !important;
+	color: $fontColor !important;
 }
