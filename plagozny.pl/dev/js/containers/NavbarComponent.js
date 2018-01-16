@@ -5,6 +5,7 @@ import { I18n } from 'react-redux-i18n';
 import { Link } from 'react-router-dom';
 import polandImg from '../../../images/poland.png';
 import englandImg from '../../../images/england.png';
+import switchLangImg from '../../../images/switchLang.png';
 import LanguageSwitcherComponent from '../containers/LanguageSwitcherComponent'
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
@@ -61,8 +62,8 @@ class NavbarComponent extends Component {
                         </li>
                         <li>
                         <Dropdown trigger={
-                            <Button>{I18n.t('language') }
-                                <FontAwesome className="navIcon" name='chevron-down'/>
+                            <Button> 
+                                <img src={switchLangImg} className='switchLnagButton'/>                                                                                       
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>
@@ -109,8 +110,8 @@ class NavbarComponent extends Component {
                         </li>
                         <li>
                         <Dropdown trigger={
-                            <Button className="sideNavButton">{I18n.t('language') }
-                                <FontAwesome className="navIcon" name='chevron-down'/>
+                            <Button className="sideNavButton">
+                                <img src={switchLangImg} className='switchLnagButton'/>                                                                                       
                             </Button>}>                          
                             <LanguageSwitcherComponent />
                         </Dropdown>

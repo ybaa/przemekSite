@@ -1,8 +1,9 @@
 export const translationObject = {
     pl: {        
-        language: "Język",
+        language: "Language",
         polish: "polski",
         english: "english",
+        spanish: "espanol",
         navbar: {
             news: "Aktualności",
             aboutMe: "O mnie",
@@ -332,6 +333,7 @@ export const translationObject = {
         language: "Language",
         polish: "polski",
         english: "english",
+        spanish: "espanol",
         navbar: {
             news: "News",
             aboutMe: "About me",
@@ -658,7 +660,337 @@ export const translationObject = {
         navigateToWork: "Go to 'work' section"
      
 
-    }
+    },
+    es: {        
+        language: "Language",
+        polish: "polski",
+        english: "english",
+        spanish: "espanol",
+        navbar: {
+            news: "Noticias",
+            aboutMe: "Sobre mí",
+            contact: "Contacto",
+            media: "Media",
+            experience: "Experiencia",            
+            education: "Educación",
+            work: "Trabajo"
+        },
+        slider: {
+            name: "Przemysław Łagożny",
+            title: "Moje spojrzenie na Futbol",
+            linkToFacebook: "Odwiedź mój profil na facebooku"
+        },
+        photosFromLegia: 'Las fotos usadas en esta página web proceden de www.legia.com y de propia colección.',
+        card: {
+            navigateToTab: "Mira"
+        },
+        readFulfArticle: 'Mira todos los detalles',
+        media: [            
+            {
+                title: "Legia Warszawa. Przemysław Łagożny o hiszpańskiej piłce i pracy analityka",
+                description: 'Specifika pracy analityka w sztabie Legii Warszawa oraz spostrzeżeniach dotyczących szkolenia młodzieży w Hiszpanii',
+                link: 'http://eurosport.interia.pl/klub-legia-warszawa/news-legia-warszawa-przemyslaw-lagozny-o-hiszpanskiej-pilce-i-pra,nId,2475387',
+                imgName: 'eurosport'
+            },
+            {
+                title: "Urugwaj i Meksyk przed Rosją",
+                description: 'Andrzej Strejlau, Mateusz Borek oraz Przemysław Łagożny w rozmowie o nadchodzących meczach reprezentacji',
+                link: 'http://audycje.tokfm.pl/podcast/Urugwaj-i-Meksyk-przed-Rosja/55708',
+                imgName: 'tok'
+            },
+            {
+                title: "Od LSS, przez akademię, do pierwszej drużyny",
+                description: 'O mojej ścieżce od akademii do I zespołu w klubie Legia Warszawa',
+                link: 'http://legia.com/aktualnosci/od-lss-przez-akademie-do-pierwszej-druzyny-55649',
+                imgName: 'legia'
+            },
+            {
+                title: "Prelegent na konferencji organizowanej przez Stowarzyszenie Trenerów Piłki Nożnej",
+                description: '',
+                link: 'http://www.stpn.com.pl/pl/97/Konferencja_STPN',
+                imgName: 'stpn'
+            },
+            {
+                title: "Wywiad z Przemysławem Łagożnym – polskim trenerem w sztabie szkoleniowym Málagi",
+                description: 'Wywiad po współpracy z Malaga Club de Futbol w sezonie 2016/17',
+                link: 'http://olemagazyn.pl/wywiad-z-przemyslawem-lagoznym-polskim-trenerem-w-sztabie-szkoleniowym-malagi/',
+                imgName: 'ole'
+            },
+            {
+                title: 'Jak to robią Hiszpanie? O hiszpańskiej myśli szkoleniowej z Przemysławem Łagożnym',
+                description: 'Audycja radia TOK FM',
+                link: 'http://audycje.tokfm.pl/podcast/Jak-to-robia-Hiszpanie-O-hiszpanskiej-mysli-szkoleniowej-z-Przemyslawem-Lagoznym/45143',
+                imgName: 'tok'
+            },
+            {
+                title:  'Program "Atleci", odcinek 298',
+                description: 'Od 8:05 minuty rozpoczyna się materiał poświęcony moim spostrzeżeniom na temat specyfiki hiszpańskiej piłki nożnej',
+                link: 'https://www.ipla.tv/Magazyn-atleci-odcinek-298/vod-7394819#/r-5'                ,
+                imgName: 'ipla'
+            },
+            {
+                title: "Julen Guerrero i Przemysław Łagożny - o piłce młodzieżowej",
+                description: "Rozmowa z legendą Atletic Bilbao i reprezentacji Hiszpanii oraz byłym trenerem akademii Atletic Bilbao i Malaga Club de Futbol",
+                link: 'https://www.youtube.com/watch?v=BRCi55AAO_U',
+                imgName: 'julen'
+            },
+            {
+                title: "Przystanek Malaga, czyli polski trener zakochany w hiszpańskim futbolu",
+                description: "Artykuł oraz materiał wideo przedstawiający mój pobyt w Malaga Club de Futbol z 2016 roku",
+                link: 'http://www.polskatimes.pl/sport/a/przystanek-malaga-czyli-polski-trener-zakochany-w-hiszpanskim-futbolu-wideo,11582994/',
+                imgName: 'theTimes'
+            },
+            {
+                title: "Cantera Málagi – La Academia Malagueña",
+                description: "Sprawozdanie ze stażu w 2014 roku",
+                link: 'http://olemagazyn.pl/cantera-malaguena/',
+                imgName: 'ole'
+            },            
+        ],
+        aboutMe: [
+            {
+                p: 'Me llamo Przemek y soy de Biłgoraj (Polonia). Allí, ya de joven empecé mi aventura con el fútbol. Luego me mudé a Łódź para estudiar y representar los colores de la Escuela de Campeonato Deportivo. Fue en Łódź donde di mis primeros pasos hacia la formación de entrenador y donde acabé mi primer curso para entrenadores. Para ampliar mis conocimientos sobre deporte, el funcionamiento del hombre y sus capacidades me gradué en la Academia de Educación Física de Varsovia (AWF). He obtenido muchos años de experiencia trabajando, entre otros, para el Legia de Varsovia, donde he trabajado como entrenador y como segundo entrenador con equipos de fútbol de categorías Fútbol 7, Fútbol 9 y Fútbol 11. Además, he trabajado como ojeador en el club de Legia de Varsovia. Gracias a la experiencia ganada en el proyecto Legia Soccer Schools (donde he ejercido como uno de los coordinadores) y el trabajo con adolescentes durante los campamentos de fútbol, sé cómo trabajar con novatos.'
+            },
+            {
+                p: 'El aprendizaje, los conocimientos especializados y la experiencia son muy importantes en el trabajo de entrenador. Por lo tanto, amplio mis conocimientos participando en varias conferencias y cursos, tanto en Polonia como en el extranjero. Debido a mi carrera en el fútbol he podido viajar a muchos países y conocer a gente de todo el mundo. Gracias a los encuentros y tertulias dedicadas a varios aspectos de entrenamiento puedo desarrollarme y ampliar mis horizontes. Además, el mundo del fútbol me ha permitido mejorar mi conocimiento de idiomas extranjeros. A día de hoy, podría decir que tengo soltura en español y en inglés.'
+            },
+            {
+                p: 'Creo que en la vida no hay cosas imposibles y los sueños se pueden cumplir. He colaborado con el club español de la Primera División Málaga Club de Fútbol donde en la temporada de otoño de 2016/2017 participé en el entrenamiento y el desarrollo de esta academia.'
+            },
+            {
+                p: 'Desde junio de 2017, trabajo para el Primer Equipo del club Legia de Varsovia como entrenador-analista.'
+            },
+        ],
+        aboutMeTitle: "Sobre mí",
+        educationTitle: "Educación",
+        education: [
+            {
+                country: "spain",
+                logo: "athleticClub",
+                description: 'Pasantía de entrenador en Athletic Club (Bilbao) – el primer equipo, el segundo equipo y la Academia de Fútbol ',
+                date: 'Diciembre de 2017'
+            },
+            {
+                country: "poland",
+                logo: "stpn",
+                description: 'Ponente en la conferencia ´´Entrenadores para entrenadores sobre las experiencias en Polonia y en el extranjero´´ organizada por la Asociación de los Entrenadores de Fútbol en Varsovia',
+                date: '1-2 de mayo de 2017'
+            },
+            {
+                country: "spain",
+                logo: "malaga",
+                description: 'Colaboración con el Málaga Club de Fútbol - (otoño de la temporada de 2016-2017)',
+                date: '2016'
+            },
+            {
+                country: "spain",
+                logo: "espanol",
+                description: 'Pasantía en la Academia de fútbol RCD Espanyol Barcelona ',
+                date: '2016'
+            },
+            {
+                country: "poland",
+                logo: "soccerServices",
+                description: 'Curso Soccer Services (el curso Ekkono level 2 en Kleszczów) ',
+                date: '2016'
+            },
+            {
+                country: "poland",
+                logo: "none",
+                description: 'Táctica y análisis del juego con elementos de psicología (Katowice)',
+                date: '2016'
+            },
+            {
+                country: "poland",
+                logo: "none",
+                description: 'Curso ´´El elemento que falta, la inteligencia emocional´´ dirigida por Rafał Kubow',
+                date: '2016'
+            },
+            {
+                country: "poland",
+                logo: "ajax",
+                description: 'Curso ´´The best way to develop a Talent´´ (ponente Ajax Amsterdam, Varsovia)',
+                date: '2015'
+            },
+            {
+                country: "england",
+                logo: "tottenham",
+                description: 'Pasantía en el club Tottenham Hotspu FC',
+                date: '2015'
+            },
+            {
+                country: "poland",
+                logo: "none",
+                description: 'Curso ´´Análisis del fútbol 2.0 Reconocimiento, conocimiento, aplicación´´',
+                date: '2015'
+            },
+            {
+                country: "poland",
+                logo: "awf",
+                description: 'Curso ´´El entrenador de la segunda división de fútbol´´ organizado por la Academia de Educación Física de Varsovia (en polaco AWF) ',
+                date: '2015'
+            },
+            {
+                country: "spain",
+                logo: "malaga",
+                description: 'Pasantía en la academia de fútbol de Málaga Club de Fútbol ',
+                date: '2014'
+            },
+            {
+                country: "poland",
+                logo: "pzpn",
+                description: 'Curso UEFA B organizado en colaboración con la Federación Polaca de Fútbol (en polaco PZPN) y la Federación Alemana de Fútbol ',
+                date: '2013'
+            },
+            {
+                country: "poland",
+                logo: "wss",
+                description: 'Curso para instructor de fútbol organizado por la Escuela Superior de Deporte de Łódź ',
+                date: '2011'
+            },
+        ],
+        footballDevelopementTitle: "Formación",
+        footballDevelopement: [
+            {
+                country: 'poland',
+                logo: 'awf',
+                description: 'Academia de Educación Física de Józef Piłsudski de Varsovia (máster)',
+                date: '2014-2016'
+            },
+            {
+                country: 'poland',
+                logo: 'awf',
+                description: 'Academia de Educación Física de Józef Piłsudski de Varsovia (grado)',
+                date: '2011-2014'
+            },
+            {
+                country: 'poland',
+                logo: 'sms',
+                description: 'Escuela de Campeonato Deportivo de Kazimierz Górski en Łódź ',
+                date: '2008-2011'
+            },
+            {
+                country: 'poland',
+                logo: 'sms',
+                description: 'nstituto de la Escuela de Campeonato Deportivo de Kazimierz Górski en Łódź',
+                date: '2007-2008'
+            },
+        ],
+        workTitle: "Trabajo",
+        otherWorkTitle: "Otros",
+        scoutTitle: "Ojeador",
+        works: [
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Legia de Varsovia I equipo (entrenador-analista)',
+                date: '2017-'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Legia de Varsovia U17/U16 (entrenador asistente)',
+                date: '2016-2017 (temporada de primavera) la primera vuelta'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Legia de Varsovia U11 (entrenador)',
+                date: '2016-2017 (temporada de primavera)'
+            },
+            {
+                country: 'spain',
+                logo: 'malaga',
+                description: 'Málaga Club de Fútbol (Parte de Cuerpo Técnico Cadete División de Honor) ',
+                date: '2016-2017 (temporada de otoño)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2006) ',
+                date: '2015-2016'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Asistente de Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2003) ',
+                date: '2015-2016 (agosto-septiembre)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2006)',
+                date: '2014-2015 (temporada de primavera)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2008) ',
+                date: '2014-2015 (temporada de otoño)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'LSS – trabajo en el proyecto de Legia Soccer School (supervisión de la sede Łazienkowska) ',
+                date: '2014-2015 (temporada de otoño)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'LSS – trabajo en el proyecto de Legia Soccer School (categoría prebenjamín) ',
+                date: '2013-2014 (temporada de primavera)'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Entrenador asistente en la Academia de Fútbol del Legia de Varsovia',
+                date: '2013-2014'
+            },
+            {
+                country: 'poland',
+                logo: 'none',
+                description: 'Trabajo en la empresa SPORTIMA',
+                date: '2013- 2014'
+            },
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Entrenador asistente en la Academia de Fútbol del Legia de Varsovia',
+                date: '2012-2013'
+            },
+        ],
+        scouting: [
+            {
+                country: 'poland',
+                logo: 'legia',
+                description: 'Ojeador en la Academia de Fútbol del Legia de Varsovia',
+                date: '2013-2016'
+            },
+        ],
+        otherWorks: [
+            {
+                country: 'poland',
+                logo: 'nike',
+                description: 'Ayuda técnica, atención a los equipos y ayuda en la oficina durante el Campeonato Europeo Nike Premier Cup en Łódź',
+                date: 'mayo de 2009'
+            },
+            {
+                country: 'poland',
+                logo: 'none',
+                description: 'Experiencia en el trabajo con adolescentes durante campeonatos deportivos ',
+                date: ''
+            },
+        ],
+        contact: {
+            needContact: "¿Quieres contactar conmigo?",
+            emailContent: "Mensaje",
+            subject: 'Asunto',
+            send: "Enviar",
+            yourEmail: 'Tu correo electrónico',
+        },
+        navigateToEducation: 'Ir a la sección educación',
+        navigateToWork: "Ir a la sección trabajo"
+    },
 }
 
 export const languages = [
@@ -669,5 +1001,9 @@ export const languages = [
         {
             name: 'english',
             key: 'en'
+        },
+        {
+            name: 'espanol',
+            key: 'es'
         }
 ]

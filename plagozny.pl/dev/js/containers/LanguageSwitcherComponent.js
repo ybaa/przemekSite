@@ -17,12 +17,14 @@ import {
 } from '../../dictionary/translations';
 import plImg from '../../../images/poland.png'
 import enImg from '../../../images/england.png';
+import esImg from '../../../images/spain.png';
 import {
     bindActionCreators
 } from 'redux';
 import {
     connect
 } from 'react-redux';
+
 
 class LanguageSwitcherComponent extends Component {
     render() {
@@ -34,6 +36,9 @@ class LanguageSwitcherComponent extends Component {
                     break;
                 case 'en':
                     img = enImg;
+                    break;
+                case 'es':
+                    img = esImg;
                     break;
 
                 default:
