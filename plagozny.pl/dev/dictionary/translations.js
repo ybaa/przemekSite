@@ -673,7 +673,7 @@ export const translationObject = {
      
 
     },
-    es: {        
+    es: {         
         language: "Language",
         polish: "polski",
         english: "english",

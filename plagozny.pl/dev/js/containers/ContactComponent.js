@@ -7,9 +7,7 @@ import { connect } from 'react-redux';
 import FontAwesome from 'react-fontawesome';
 
 class ContactComponent extends Component {
-
     render() {
-
         return (
             <div className='paddingBottom' >
                 <Row>
