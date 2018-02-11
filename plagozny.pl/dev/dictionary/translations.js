@@ -23,7 +23,13 @@ export const translationObject = {
             navigateToTab: "Zobacz"
         },
         readFulfArticle: 'Zobacz pełny materiał',
-        media: [            
+        media: [   
+            {
+                title: "ANALIZA RYWALA: SILKEBORG IF",
+                description: 'Informacje o rywalu przed meczem z IF Silkeborg',
+                link: 'http://legia.com/aktualnosci/analiza-rywala-silkeborg-if-57651',
+                imgName: 'legia'
+            },           
             {
                 title: "Legia Warszawa. Przemysław Łagożny o hiszpańskiej piłce i pracy analityka",
                 description: 'Specifika pracy analityka w sztabie Legii Warszawa oraz spostrzeżeniach dotyczących szkolenia młodzieży w Hiszpanii',
@@ -353,18 +359,24 @@ export const translationObject = {
             navigateToTab: "Check"
         },
         readFulfArticle: 'Check full article',
-        media: [
+        media: [   
             {
-                title: "Urugwaj i Meksyk przed Rosją",
-                description: 'Andrzej Strejlau, Mateusz Borek oraz Przemysław Łagożny w rozmowie o nadchodzących meczach reprezentacji',
-                link: 'http://audycje.tokfm.pl/podcast/Urugwaj-i-Meksyk-przed-Rosja/55708',
-                imgName: 'tok'
-            },
+                title: "ANALIZA RYWALA: SILKEBORG IF",
+                description: 'Informacje o rywalu przed meczem z IF Silkeborg',
+                link: 'http://legia.com/aktualnosci/analiza-rywala-silkeborg-if-57651',
+                imgName: 'legia'
+            },         
             {
                 title: "Legia Warszawa. Przemysław Łagożny o hiszpańskiej piłce i pracy analityka",
                 description: 'Specifika pracy analityka w sztabie Legii Warszawa oraz spostrzeżeniach dotyczących szkolenia młodzieży w Hiszpanii',
                 link: 'http://eurosport.interia.pl/klub-legia-warszawa/news-legia-warszawa-przemyslaw-lagozny-o-hiszpanskiej-pilce-i-pra,nId,2475387',
                 imgName: 'eurosport'
+            },
+            {
+                title: "Urugwaj i Meksyk przed Rosją",
+                description: 'Andrzej Strejlau, Mateusz Borek oraz Przemysław Łagożny w rozmowie o nadchodzących meczach reprezentacji',
+                link: 'http://audycje.tokfm.pl/podcast/Urugwaj-i-Meksyk-przed-Rosja/55708',
+                imgName: 'tok'
             },
             {
                 title: "Od LSS, przez akademię, do pierwszej drużyny",
@@ -685,7 +697,13 @@ export const translationObject = {
             navigateToTab: "Mira"
         },
         readFulfArticle: 'Mira todos los detalles',
-        media: [            
+        media: [      
+            {
+                title: "ANALIZA RYWALA: SILKEBORG IF",
+                description: 'Informacje o rywalu przed meczem z IF Silkeborg',
+                link: 'http://legia.com/aktualnosci/analiza-rywala-silkeborg-if-57651',
+                imgName: 'legia'
+            },        
             {
                 title: "Legia Warszawa. Przemysław Łagożny o hiszpańskiej piłce i pracy analityka",
                 description: 'Specifika pracy analityka w sztabie Legii Warszawa oraz spostrzeżeniach dotyczących szkolenia młodzieży w Hiszpanii',
