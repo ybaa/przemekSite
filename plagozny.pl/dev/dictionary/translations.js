@@ -23,7 +23,13 @@ export const translationObject = {
             navigateToTab: "Zobacz"
         },
         readFulfArticle: 'Zobacz pełny materiał',
-        media: [   
+        media: [  
+            {
+                title: "Analitycy Legii - od cegiełki, aż po bank",
+                description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
+                link: 'https://legia.net/wiadomosci,72330-analitycy_legii___od_cegielki,_az_po_bank.html',
+                imgName: 'legianet'
+            },   
             {
                 title: "ANALIZA RYWALA: SILKEBORG IF",
                 description: 'Informacje o rywalu przed meczem z IF Silkeborg',
@@ -359,7 +365,13 @@ export const translationObject = {
             navigateToTab: "Check"
         },
         readFulfArticle: 'Check full article',
-        media: [   
+        media: [  
+            {
+                title: "Analitycy Legii - od cegiełki, aż po bank",
+                description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
+                link: 'https://legia.net/wiadomosci,72330-analitycy_legii___od_cegielki,_az_po_bank.html',
+                imgName: 'legianet'
+            },   
             {
                 title: "ANALIZA RYWALA: SILKEBORG IF",
                 description: 'Informacje o rywalu przed meczem z IF Silkeborg',
@@ -670,8 +682,6 @@ export const translationObject = {
         },
         navigateToEducation: 'Go to education',
         navigateToWork: "Go to 'work' section"
-     
-
     },
     es: {         
         language: "Language",
@@ -698,6 +708,12 @@ export const translationObject = {
         },
         readFulfArticle: 'Mira todos los detalles',
         media: [      
+            {
+                title: "Analitycy Legii - od cegiełki, aż po bank",
+                description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
+                link: 'https://legia.net/wiadomosci,72330-analitycy_legii___od_cegielki,_az_po_bank.html',
+                imgName: 'legianet'
+            },  
             {
                 title: "ANALIZA RYWALA: SILKEBORG IF",
                 description: 'Informacje o rywalu przed meczem z IF Silkeborg',

@@ -7,6 +7,7 @@ import oleImg from '../../../images/ole.png'
 import iplaImg from '../../../images/ipla.png';
 import julenImg from '../../../images/julen.png';
 import legiaImg from '../../../images/legia.png';
+import legianetImg from '../../../images/legianet.png';
 import stpnImg from '../../../images/stpn.png';
 import theTimesImg from '../../../images/theTimes.png';
 import tokImg from '../../../images/tok.png';
@@ -40,6 +41,11 @@ class MediaItemComponent extends Component {
             case "legia":            
                 this.setState({
                     imageToLoad: legiaImg
+                })
+                break;
+            case "legianet":            
+                this.setState({
+                    imageToLoad: legianetImg
                 })
                 break;
             case "stpn":            
