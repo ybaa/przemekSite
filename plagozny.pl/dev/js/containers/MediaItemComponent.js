@@ -67,7 +67,7 @@ class MediaItemComponent extends Component {
                 this.setState({
                     imageToLoad: eurosportImg
                 })
-                break;
+                break;            
 
         } 
     }

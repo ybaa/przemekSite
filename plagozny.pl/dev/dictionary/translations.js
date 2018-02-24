@@ -115,6 +115,12 @@ export const translationObject = {
         educationTitle: "Wykształcenie",
         education: [
             {
+                country: "poland",
+                logo: "scoutsForFootball",
+                description: 'Prelegent na konferencji organizowanej przez „Scouts for Football” wraz z: Peter Hyballa, Nuno Felix i Lars Mrosko',
+                date: '17-18.02.2018r'
+            },
+            {
                 country: "spain",
                 logo: "athleticClub",
                 description: 'Staż trenerski w Athletic Club (Bilbao) obejmujący Pierwszy zespół, Drugi zespół oraz Akademię Piłkarską',
@@ -457,6 +463,12 @@ export const translationObject = {
         educationTitle: "Education",
         education: [
             {
+                country: "poland",
+                logo: "scoutsForFootball",
+                description: 'Speaker at the Conference organized by the “Scouts for Football” with Peter Hyballa, Nuno Felix and Lars Mrosko',
+                date: '17-18.02.2018r'
+            },
+            {
                 country: "spain",
                 logo: "athleticClub",
                 description: 'Coaching Practice in Athletic Club (Bilbao) with The First Team, The Second Team and the football academy.',
@@ -798,6 +810,12 @@ export const translationObject = {
         aboutMeTitle: "Sobre mí",
         educationTitle: "Educación",
         education: [
+            {
+                country: "poland",
+                logo: "scoutsForFootball",
+                description: 'Ponente en la conferencia „Scouts for Football” con Peter Hyballa, Nuno Felix y Lars Mrosko',
+                date: '17-18.02.2018r'
+            },
             {
                 country: "spain",
                 logo: "athleticClub",
