@@ -25,11 +25,11 @@ class TableComponent extends Component {
 
     
     render() {       
-       
-        let tableContent = I18n.t(this.props.education).map( (current) => {
+        let content = I18n.t(this.props.education);
+        let tableContent = Object.keys(content).map( (current) => {
             let clubImg = '';
             let countryImg = '';            
-            switch (current.country) {
+            switch (content[current].country) {
                 case 'poland':
                     countryImg = <img src={polandImg} /> 
                     break;
@@ -44,7 +44,7 @@ class TableComponent extends Component {
                     break;
             }
 
-            switch (current.logo) {
+            switch (content[current].logo) {
                 case 'athleticClub':
                     clubImg = <img src={athleticClubImg} />
                     break;
@@ -99,8 +99,8 @@ class TableComponent extends Component {
             return <tr>
                     <td> {countryImg} </td>
                     <td> {clubImg} </td>                    
-                    <td> {current.description}  </td>
-                    <td> {current.date}  </td>
+                    <td> {content[current].description}  </td>
+                    <td> {content[current].date}  </td>
                 </tr>
         });
         

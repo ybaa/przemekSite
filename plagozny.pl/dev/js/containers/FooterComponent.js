@@ -8,8 +8,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 class FooterComponent extends Component {
-    render() {       
-      
+    render() {             
         return (
             <div className='footer'>                
               <Footer copyrights="&copy; 2017 plagozny.pl"                

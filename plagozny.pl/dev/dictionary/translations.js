@@ -117,6 +117,12 @@ export const translationObject = {
             {
                 country: "poland",
                 logo: "scoutsForFootball",
+                description: 'Prelegent na konferencji organizowanej przez „Scouts for Football” wraz z: Goncalo Feio, Waldemar Wrobel',
+                date: '17-18.03.2018r'
+            },
+            {
+                country: "poland",
+                logo: "scoutsForFootball",
                 description: 'Prelegent na konferencji organizowanej przez „Scouts for Football” wraz z: Peter Hyballa, Nuno Felix i Lars Mrosko',
                 date: '17-18.02.2018r'
             },
@@ -203,7 +209,7 @@ export const translationObject = {
                 logo: "wss",
                 description: 'Kurs instruktora piłki nożnej organizowany przez Wyższą Szkołę Sportową w Łodzi',
                 date: '2011'
-            },
+            }
         ],
         footballDevelopementTitle: "Edukacja",
         footballDevelopement: [
@@ -462,6 +468,12 @@ export const translationObject = {
         aboutMeTitle: "About me",
         educationTitle: "Education",
         education: [
+            {
+                country: "poland",
+                logo: "scoutsForFootball",
+                description: 'Speaker at the Conference organized by the “Scouts for Football” with Goncalo Feio, Waldemar Wrobel',
+                date: '17-18.03.2018r'
+            },
             {
                 country: "poland",
                 logo: "scoutsForFootball",
@@ -810,6 +822,12 @@ export const translationObject = {
         aboutMeTitle: "Sobre mí",
         educationTitle: "Educación",
         education: [
+            {
+                country: "poland",
+                logo: "scoutsForFootball",
+                description: 'Ponente en la conferencia „Scouts for Football” con Goncalo Feio, Waldemar Wrobel',
+                date: '17-18.03.2018r'
+            },
             {
                 country: "poland",
                 logo: "scoutsForFootball",

@@ -8,11 +8,19 @@ import { connect } from 'react-redux';
 
 class AboutMeComponent extends Component {
     render() {
-        let paragraphs = I18n.t('aboutMe').map((item, id) => {
+        // let paragraphs = I18n.t('aboutMe').map((item, id) => {
+        //     return <p className="grey-text text-darken-3 lighten-3 animated slideInUp" key={id}>
+        //         {item.p}
+        //     </p>
+        // });
+        let aboutMe = I18n.t('aboutMe');
+        let paragraphs = Object.keys(aboutMe).map( (item,id) => {            
             return <p className="grey-text text-darken-3 lighten-3 animated slideInUp" key={id}>
-                {item.p}
-            </p>
-        });
+                 {aboutMe[item].p}
+             </p>
+        })
+        
+
         return (
             <div>
                 <div className="section white">

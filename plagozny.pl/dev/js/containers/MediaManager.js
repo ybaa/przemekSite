@@ -9,13 +9,13 @@ import {connect} from 'react-redux';
 class MediaManager extends Component {
 
     render() {       
-
-        let mediaItems = I18n.t('media').map( (item, id) => {
+        let media = I18n.t('media');
+        let mediaItems = Object.keys(media).map( (item, id) => {
             return  <MediaItemComponent 
-                imgName= {item.imgName} 
-                title={item.title}
-                description={item.description}
-                articleLink={item.link}
+                imgName= {media[item].imgName} 
+                title={media[item].title}
+                description={media[item].description}
+                articleLink={media[item].link}
                 key={id}
         />  
         });

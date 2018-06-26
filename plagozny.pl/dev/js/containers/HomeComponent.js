@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 import CardComponent from './CardComponent';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
+import AboutMeComponent from './AboutMeComponent';
 
 class HomeComponent extends Component {
-    render() {               
+    render() {                   
         return (
             <Row className="cards paddingBottom">            
                 <Col s={12} l={2} m={2} offset="l1 m1"  className='animated flipInX' >
@@ -23,8 +24,8 @@ class HomeComponent extends Component {
                     <CardComponent name={I18n.t('navbar.media')} iconName="video-camera" buttonColor="red" /> 
                 </Col>
                 <Col s={12} l={2} m={2} className='animated flipInX'>
-                    <CardComponent name={I18n.t('navbar.contact')}iconName="envelope" buttonColor="brown" /> 
-                </Col>
+                    <CardComponent name={I18n.t('navbar.contact')}iconName="envelope" buttonColor="brown" />                     
+                </Col>               
             </Row> 
            
         );

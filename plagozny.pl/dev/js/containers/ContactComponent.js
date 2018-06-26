@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Row, Col, Button, Icon, Input } from 'react-materialize';
-import { I18n, i18nReducer } from 'react-redux-i18n';
-import PropTypes from 'prop-types';
+import { Row, Col} from 'react-materialize';
+import { I18n } from 'react-redux-i18n';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import FontAwesome from 'react-fontawesome';
-import axios from 'axios';
 
 class ContactComponent extends Component {
     render() {

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 
 class CardComponent extends Component {
-    render() {
+    render() {        
         let link = '';
         switch (this.props.name) {
             case I18n.t('navbar.aboutMe'):
