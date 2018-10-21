@@ -6,6 +6,7 @@ import slideImg1 from '../../../images/1.png';
 import slideImg2 from '../../../images/2.png';
 import slideImg3 from '../../../images/3.png';
 import slideImg4 from '../../../images/4.png';
+import slideImg5 from '../../../images/55.png';
 import FontAwesome from 'react-fontawesome';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
@@ -69,7 +70,19 @@ class SliderComponent extends Component {
                         </a>
                         </div>
                     </Slide>
-                   
+                    <Slide
+                        src={slideImg5}
+                        title={I18n.t('slider.name')}
+                        placement="left">                        
+                        <div>
+                            {I18n.t('slider.title')}
+                        </div>                        
+                        <div>
+                        <a href='https://www.facebook.com/lagozny/' target='_blank'>
+                            <Button waves='light' href='http://www.google.com' target="_blank"><FontAwesome name='facebook-square'/>{I18n.t('slider.linkToFacebook')}</Button>
+                        </a>
+                        </div>
+                    </Slide>
                 </Slider>
             </div>
            

@@ -12,6 +12,7 @@ import stpnImg from '../../../images/stpn.png';
 import theTimesImg from '../../../images/theTimes.png';
 import tokImg from '../../../images/tok.png';
 import eurosportImg from '../../../images/eurosport.png';
+import polsatImg from '../../../images/polsat.png';
 
 class MediaItemComponent extends Component {
     constructor(props){
@@ -67,11 +68,17 @@ class MediaItemComponent extends Component {
                 this.setState({
                     imageToLoad: eurosportImg
                 })
-                break;            
+                break;    
+            case "polsat":            
+                this.setState({
+                    imageToLoad: polsatImg
+                })
+                break;           
 
         } 
     }
     render() {       
+        let articleLink = this.props.articleLink.length > 0 ? <a href={this.props.articleLink} target="_blank"> {I18n.t('readFulfArticle').toUpperCase()} </a> : <p></p>;
         return (
             <div>                    
                 <Row> 
@@ -84,7 +91,7 @@ class MediaItemComponent extends Component {
                         <Col s={8} m={10}>
                             <h5>{this.props.title}</h5>
                             <p>{this.props.description}</p>
-                            <a href={this.props.articleLink} target="_blank"> {I18n.t('readFulfArticle').toUpperCase()} </a>
+                            {articleLink}
                         </Col>
                     </Col>
                 </Row> 
@@ -98,7 +105,7 @@ MediaItemComponent.PropTypes = {
     imgName: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
-    articleLink: PropTypes.string.isRequired
+    articleLink: PropTypes.string
 };
 
 export default MediaItemComponent;

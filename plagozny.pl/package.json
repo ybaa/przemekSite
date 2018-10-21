@@ -20,9 +20,9 @@
     "css-loader": "^0.23.1",
     "expect": "^1.20.1",
     "file-loader": "^1.1.6",
-    "image-webpack-loader": "^3.4.2",
+    "image-webpack-loader": "^4.4.0",
     "node-libs-browser": "^1.0.0",
-    "node-sass": "^3.8.0",
+    "node-sass": "^4.8.0",
     "prop-types": "^15.6.0",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",
@@ -41,12 +41,13 @@
     "url-loader": "^0.6.2",
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-dev-server": "^1.14.1",
+    "webpack-dev-server": "^3.1.9",
     "webpack-hot-middleware": "^2.11.0"
   },
   "devDependencies": {
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
-    "react-transform-hmr": "^1.0.4"
+    "react-transform-hmr": "^1.0.4",
+    "webpack-cli": "^3.1.2"
   }
 }

@@ -23,7 +23,25 @@ export const translationObject = {
             navigateToTab: "Zobacz"
         },
         readFulfArticle: 'Zobacz pełny materiał',
-        media: [  
+        media: [ 
+            {
+                title: '„Przed meczem Polska-Kolumbia. Co słychać w szatni Kolumbii?”',
+                description: 'Analiza gry Reprezentacji Kolumbii na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Przed-meczem-Polska-Kolumbia-Co-slychac-w-szatni-Kolumbii/63867',
+                imgName: 'tok'
+            },
+            {
+                title: 'Przed meczem Polska – Senegal',
+                description: 'Analiza rywala dla TV Polsat',
+                link: '',
+                imgName: 'polsat'
+            }, 
+            {
+                title: '„Senegal jest 2 najmocniejszą drużyną z Afryki. Co wiemy o naszym pierwszym rywalu na mundialu?”',
+                description: 'Analiza rywala na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Senegal-jest-2-najmocniejsza-druzyna-z-Afryki-Co-wiemy-o-naszym-pierwszym-rywalu-na-mundialu/63558',
+                imgName: 'tok'
+            },   
             {
                 title: "Analitycy Legii - od cegiełki, aż po bank",
                 description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
@@ -102,7 +120,7 @@ export const translationObject = {
                 p: 'Cześć nazywam się Przemek. Pochodzę z Biłgoraja. Tam jako młody chłopak rozpocząłem swoją przygodę z Futbolem. Następnie przeprowadziłem się do Łodzi, by uczyć się i reprezentować barwy tamtejszej Szkoły Mistrzostwa Sportowego. To właśnie w Łodzi uczyniłem swój pierwszy krok w kierunku szkoleniowym, kończąc swój pierwszy kurs trenerski. Aby poszerzyć wiedzę na temat sportu, funkcjonowania człowieka i wykorzystaniu potencjału drzemiącego w ludzkim organizmie, ukończyłem studia na Warszawskim AWF. Mam za sobą wieloletnie doświadczenie zawodowe, które zdobywałem między innymi w pracy dla Legii Warszawa, gdzie pracowałem jako trener, II trener z drużynami na etapie piłki nożnej 7, 9 oraz 11 osobowej. Pracowałem również jako scout klubu Legia Warszawa. Wiem, jak pracować z najmłodszymi adeptami Futbolu dzięki doświadczeniu nabytemu w projekcie Legia Soccer Schools (również pełniący obowiązki koordynatora jednego z oddziałów) czy pracy z młodzieżą podczas obozów piłkarskich.'
             },
             {
-                p: 'Nauka, fachowa wiedza, doświadczenie - to niezwykle ważne składniki w pracy szkoleniowej. Dlatego sam pogłębiam swoją wiedzę, uczestnicząc w licznych konferencjach, kursach i szkoleniach. Zarówno w kraju jak i zagranicą. Dzięki piłce nożnej miałem przyjemność zwiedzić wiele krajów oraz poznać ludzi z całego świata. Poprzez spotkania, wspólne rozmowy poświęcone aspektom szkoleniowym, mogę rozwijać się i poszerzać swoje horyzonty patrzenia na piłkę. Świat piłki nożnej pozwolił mi na poznanie oraz doskonalenie języków obcych. Dziś mogę powiedzieć, że bez problemu komunikuję się w języku hiszpańskim oraz angielskim.'
+                p: 'Nauka, fachowa wiedza, doświadczenie - to niezwykle ważne składniki w pracy szkoleniowej. Dlatego sam pogłębiam swoją wiedzę, uczestnicząc w licznych konferencjach, kursach i szkoleniach. Zarówno w kraju jak i zagranicą. Dzięki piłce nożnej miałem przyjemność zwiedzić wiele krajów oraz poznać ludzi z całego świata. Poprzez spotkania, wspólne rozmowy poświęcone aspektom szkoleniowym, mogę rozwijać się i poszerzać swoje horyzonty patrzenia na piłkę. Świat piłki nożnej pozwolił mi na poznanie oraz doskonalenie języków obcych. Dziś mogę powiedzieć, że bez problemu komunikuję się w języku hiszpańskim, angielskim oraz portugalskim (brazylijskim).'
             },
             {
                 p: 'Uważam, że w życiu nie ma rzeczy niemożliwych, a marzenia są po to, by je spełniać! Nawiązałem współpracę z klubem hiszpańskiej Primera Division: Malaga Club de Futbol, gdzie w rundzie jesiennej sezonu 2016/2017 z bliska uczestniczyłem w procesie szkoleniowym i rozwoju piłkarskiej akademii.'
@@ -114,6 +132,12 @@ export const translationObject = {
         aboutMeTitle: "O mnie",
         educationTitle: "Wykształcenie",
         education: [
+            {
+                country: "poland",
+                logo: "pzpn",
+                description: 'KURS UEFA A (Organizowany przez MZPN)',
+                date: 'obecnie'
+            },
             {
                 country: "poland",
                 logo: "scoutsForFootball",
@@ -269,57 +293,39 @@ export const translationObject = {
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Trener w Akademii Piłkarskiej Legii Warszawa (zespół 2006)',
-                date: '2015-2016'
+                description: 'Legia Warszawa U10 (trener)',
+                date: 'sierpień 2015 - czerwiec 2016'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Asystent Trenera w Akademii Piłkarskiej Legii Warszawa (zespół 2003)',
-                date: '2015- 2016 (sierpień- wrzesień)'
+                description: 'Legia Warszawa U13 (Asystent Trenera)',
+                date: 'sierpień 2015 - wrzesień 2016'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Trener w Akademii Piłkarskiej Legii Warszawa (zespół 2006)',
-                date: '2014-2015 (runda wiosenna)'
+                description: 'Legia Warszawa U7-U10 (Trener)',
+                date: 'wrzesień 2014 – grudzień 2015'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Trener w Akademii Piłkarskiej Legii Warszawa (zespół 2008)',
-                date: '2014-2015 (runda jesienna)'
+                description: 'Koordynator projektu Legia Soccer Schools Project (nadzór and ośrodkiem Łazienkowska)',
+                date: 'sierpień 2014 – grudzień 2014'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'LSS - Praca w projekcie Legia Soccer School, (nadzór nad oddziałem Łazienkowska)',
-                date: '2014-2015 (runda jesienna)'
+                description: 'Legia Soccer Schools (trener)',
+                date: '2013 - 2014'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'LSS - Praca w projekcie Legia Soccer School (piłkarskie przedszkola)',
-                date: '2013-2014 (runda wiosenna)'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'Trener Asystent w Akademii Piłkarskiej Legii Warszawa',
-                date: '2013-2014'
-            },
-            {
-                country: 'poland',
-                logo: 'none',
-                description: 'pracownik firmy SPORTIMA',
-                date: '2013- 2014'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'Trener Asystent w Akademii Piłkarskiej Legii Warszawa (rocznik 2005)',
-                date: '2012-2013'
-            },
+                description: 'Legia Warszawa (Akademia piłkarska, różne kategrie) (Trener Asystent)',
+                date: 'sierpień 2012 – czerwiec 2014'
+            }            
         ],
         scouting: [
             {
@@ -377,7 +383,25 @@ export const translationObject = {
             navigateToTab: "Check"
         },
         readFulfArticle: 'Check full article',
-        media: [  
+        media: [
+            {
+                title: '„Przed meczem Polska-Kolumbia. Co słychać w szatni Kolumbii?”',
+                description: 'Analiza gry Reprezentacji Kolumbii na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Przed-meczem-Polska-Kolumbia-Co-slychac-w-szatni-Kolumbii/63867',
+                imgName: 'tok'
+            },
+            {
+                title: 'Przed meczem Polska – Senegal',
+                description: 'Analiza rywala dla TV Polsat',
+                link: '',
+                imgName: 'polsat'
+            }, 
+            {
+                title: '„Senegal jest 2 najmocniejszą drużyną z Afryki. Co wiemy o naszym pierwszym rywalu na mundialu?”',
+                description: 'Analiza rywala na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Senegal-jest-2-najmocniejsza-druzyna-z-Afryki-Co-wiemy-o-naszym-pierwszym-rywalu-na-mundialu/63558',
+                imgName: 'tok'
+            },     
             {
                 title: "Analitycy Legii - od cegiełki, aż po bank",
                 description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
@@ -456,7 +480,7 @@ export const translationObject = {
                 p: 'Hello my name is Przemek. I come from Bilgoraj. I started my adventure with football as a young boy. Then I moved to Lodz in order to study and represent Szkola Mistrzostwa Sportowego (sports school). This is where I started my coaching career by doing my first coaching course. In order to gain more knowledge about sport and functioning of a man, I graduated from Jozef Pilsudski University of Physical Education in Warsaw. I gained a lot of professional experience, among others in Legia Warsaw, where I worked as a coach and the second coach with teams from Under 7 to Under 17. I worked as a scout in Legia Warsaw. I also gained experience in working with children in Legia Soccer Schools project, where I was one of the coordinator.'
             },
             {
-                p: 'Education, professional knowledge, experience they all constitute crucial elements in coaching work. That is why I gain my knowledge by attending a great number of conferences and courses, both home and abroad. Thanks to football I had an opportunity to visit lots of countries and get to know people from the whole word. By attending meetings, discussions on coaching I can develop and I broaden my mind. The world of football allowed me to learn foreign languages. Today I can say that I have no problems to communicate both in Spanish and English. '
+                p: 'Education, professional knowledge, experience they all constitute crucial elements in coaching work. That is why I gain my knowledge by attending a great number of conferences and courses, both home and abroad. Thanks to football I had an opportunity to visit lots of countries and get to know people from the whole word. By attending meetings, discussions on coaching I can develop and I broaden my mind. The world of football allowed me to learn foreign languages. Today I can say that I have no problems to communicate both in Spanish, English and Portuguese (Brasilian version). '
             },
             {
                 p: 'I think that there are no things that are impossible to achieve and you should fulfil your dreams. I cooperated with Malaga FC where I could take a closer look at the coaching process and the development of the football academy in the first round of the season 2016/2017 .'
@@ -468,6 +492,12 @@ export const translationObject = {
         aboutMeTitle: "About me",
         educationTitle: "Education",
         education: [
+            {
+                country: "poland",
+                logo: "pzpn",
+                description: 'Training Course: UEFA A organized by MZPN',
+                date: 'now'
+            },
             {
                 country: "poland",
                 logo: "scoutsForFootball",
@@ -623,57 +653,39 @@ export const translationObject = {
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Warsaw 2006 team (coach)',
-                date: '2015-2016'
+                description: 'Legia Warsaw U10 (coach)',
+                date: 'August 2015 - June 2016'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Warsaw 2003 team (second coach)',
-                date: '2015- 2016 (August- September)'
+                description: 'Legia Warsaw U13 (Assistant Coach)',
+                date: 'August 2015 - September 2016'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Warsaw 2006 team (coach)',
-                date: '2014- 2015 (the second round)'
+                description: 'Legia Warsaw (U7-U10) coach',
+                date: 'September 2014 - December 2015'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Warsaw 2008 team (coach)',
-                date: '2014-2015 (the first round)'
+                description: 'Coordinator Legia Soccer Schools Project (supervision over Lazienkowska region)',
+                date: 'August 2014 – December 2014'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Soccer Schools Project Coordinator (supervision over Lazienkowska region) ',
-                date: '2014-2015 (the first round)'
+                description: 'Legia Soccer Schools Project (coach)',
+                date: '2013 - 2014 (the second round)'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Legia Soccer Schools Project (coach) ',
-                date: '2013- 2014 (the second round)'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'Legia Warsaw Youth Academy (second coach)',
-                date: '2013- 2014'
-            },
-            {
-                country: 'poland',
-                logo: 'none',
-                description: 'SPORTIMA (coach) ',
-                date: '2013- 2014'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'Legia Warsaw 2005 team (second coach)',
-                date: '2012-2013'
-            },
+                description: 'Legia Warsaw (youth academy, different teams) (Assistant Coach)',
+                date: 'August 2012 – June 2014'
+            }  
         ],
         scouting: [
             {
@@ -731,7 +743,25 @@ export const translationObject = {
             navigateToTab: "Mira"
         },
         readFulfArticle: 'Mira todos los detalles',
-        media: [      
+        media: [
+            {
+                title: '„Przed meczem Polska-Kolumbia. Co słychać w szatni Kolumbii?”',
+                description: 'Analiza gry Reprezentacji Kolumbii na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Przed-meczem-Polska-Kolumbia-Co-slychac-w-szatni-Kolumbii/63867',
+                imgName: 'tok'
+            },
+            {
+                title: 'Przed meczem Polska – Senegal',
+                description: 'Analiza rywala dla TV Polsat',
+                link: '',
+                imgName: 'polsat'
+            }, 
+            {
+                title: '„Senegal jest 2 najmocniejszą drużyną z Afryki. Co wiemy o naszym pierwszym rywalu na mundialu?”',
+                description: 'Analiza rywala na potrzeby radia TOK FM',
+                link: 'https://audycje.tokfm.pl/podcast/Senegal-jest-2-najmocniejsza-druzyna-z-Afryki-Co-wiemy-o-naszym-pierwszym-rywalu-na-mundialu/63558',
+                imgName: 'tok'
+            },         
             {
                 title: "Analitycy Legii - od cegiełki, aż po bank",
                 description: 'Łagożny Przemysław i Maciej Krzymień o funkcjonowaniu działu analiz Legii Warszawa',
@@ -810,7 +840,7 @@ export const translationObject = {
                 p: 'Me llamo Przemek y soy de Biłgoraj (Polonia). Allí, ya de joven empecé mi aventura con el fútbol. Luego me mudé a Łódź para estudiar y representar los colores de la Escuela de Campeonato Deportivo. Fue en Łódź donde di mis primeros pasos hacia la formación de entrenador y donde acabé mi primer curso para entrenadores. Para ampliar mis conocimientos sobre deporte, el funcionamiento del hombre y sus capacidades me gradué en la Academia de Educación Física de Varsovia (AWF). He obtenido muchos años de experiencia trabajando, entre otros, para el Legia de Varsovia, donde he trabajado como entrenador y como segundo entrenador con equipos de fútbol de categorías Fútbol 7, Fútbol 9 y Fútbol 11. Además, he trabajado como ojeador en el club de Legia de Varsovia. Gracias a la experiencia ganada en el proyecto Legia Soccer Schools (donde he ejercido como uno de los coordinadores) y el trabajo con adolescentes durante los campamentos de fútbol, sé cómo trabajar con novatos.'
             },
             {
-                p: 'El aprendizaje, los conocimientos especializados y la experiencia son muy importantes en el trabajo de entrenador. Por lo tanto, amplio mis conocimientos participando en varias conferencias y cursos, tanto en Polonia como en el extranjero. Debido a mi carrera en el fútbol he podido viajar a muchos países y conocer a gente de todo el mundo. Gracias a los encuentros y tertulias dedicadas a varios aspectos de entrenamiento puedo desarrollarme y ampliar mis horizontes. Además, el mundo del fútbol me ha permitido mejorar mi conocimiento de idiomas extranjeros. A día de hoy, podría decir que tengo soltura en español y en inglés.'
+                p: 'El aprendizaje, los conocimientos especializados y la experiencia son muy importantes en el trabajo de entrenador. Por lo tanto, amplio mis conocimientos participando en varias conferencias y cursos, tanto en Polonia como en el extranjero. Debido a mi carrera en el fútbol he podido viajar a muchos países y conocer a gente de todo el mundo. Gracias a los encuentros y tertulias dedicadas a varios aspectos de entrenamiento puedo desarrollarme y ampliar mis horizontes. Además, el mundo del fútbol me ha permitido mejorar mi conocimiento de idiomas extranjeros. A día de hoy, podría decir que tengo soltura en español en inglés y portugués ( la versión brasileño).'
             },
             {
                 p: 'Creo que en la vida no hay cosas imposibles y los sueños se pueden cumplir. He colaborado con el club español de la Primera División Málaga Club de Fútbol donde en la temporada de otoño de 2016/2017 participé en el entrenamiento y el desarrollo de esta academia.'
@@ -822,6 +852,12 @@ export const translationObject = {
         aboutMeTitle: "Sobre mí",
         educationTitle: "Educación",
         education: [
+            {
+                country: "poland",
+                logo: "pzpn",
+                description: 'Curso UEFA A organizado en MZPN',
+                date: 'ahora'
+            },
             {
                 country: "poland",
                 logo: "scoutsForFootball",
@@ -977,57 +1013,39 @@ export const translationObject = {
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2006) ',
-                date: '2015-2016'
+                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo U-10)',
+                date: '2015 - 2016'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Asistente de Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2003) ',
+                description: 'Asistente de Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo U-13)',
                 date: '2015-2016 (agosto-septiembre)'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2006)',
+                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipos U-7 – U-10)',
                 date: '2014-2015 (temporada de primavera)'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'Entrenador en la Academia de Fútbol del Legia de Varsovia (equipo 2008) ',
+                description: 'LSS – trabajo en el proyecto de Legia Soccer School (supervisión de la sede Łazienkowska)',
                 date: '2014-2015 (temporada de otoño)'
             },
             {
                 country: 'poland',
                 logo: 'legia',
-                description: 'LSS – trabajo en el proyecto de Legia Soccer School (supervisión de la sede Łazienkowska) ',
-                date: '2014-2015 (temporada de otoño)'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'LSS – trabajo en el proyecto de Legia Soccer School (categoría prebenjamín) ',
+                description: 'LSS – trabajo en el proyecto de Legia Soccer School (categoría prebenjamín)',
                 date: '2013-2014 (temporada de primavera)'
             },
             {
                 country: 'poland',
                 logo: 'legia',
                 description: 'Entrenador asistente en la Academia de Fútbol del Legia de Varsovia',
-                date: '2013-2014'
-            },
-            {
-                country: 'poland',
-                logo: 'none',
-                description: 'Trabajo en la empresa SPORTIMA',
-                date: '2013- 2014'
-            },
-            {
-                country: 'poland',
-                logo: 'legia',
-                description: 'Entrenador asistente en la Academia de Fútbol del Legia de Varsovia',
-                date: '2012-2013'
-            },
+                date: '2012 – 2014'
+            } 
         ],
         scouting: [
             {
