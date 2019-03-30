@@ -10,10 +10,10 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: './dev/js/index.js',
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
-                loaders: ['babel'],
+                loaders: ['babel-loader'],
                 exclude: /node_modules/
             },
             {
@@ -31,7 +31,8 @@ module.exports = {
         ]
     },
     output: {
-        path: 'src',
+        // path: 'src',
+        path: '/run/media/ybaa/Data/plagozny/plagozny.pl/src',
         filename: 'js/bundle.min.js'
     },
     plugins: [

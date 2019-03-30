@@ -14,7 +14,8 @@ import { syncTranslationWithStore, loadTranslations, setLocale } from 'react-red
 const logger = createLogger();
 const store = createStore(
     allReducers,
-    applyMiddleware(thunk, promise, logger)
+    applyMiddleware(thunk, promise)
+    // applyMiddleware(thunk, promise, logger)
 );
 
 syncTranslationWithStore(store)

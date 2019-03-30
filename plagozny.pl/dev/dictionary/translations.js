@@ -133,10 +133,22 @@ export const translationObject = {
         educationTitle: "Wykształcenie",
         education: [
             {
+                country: "spain",
+                logo: "atletico",
+                description: 'Kongres Analizy Gry i Nowych Rozwiązań Technologicznych w Piłce Nożnej organizowany przez Klub Atletico Madryt (Prelegenci: Xabier Ruiz de Ocenda- Atlético de Madrid, Carles Planchart- Manchester City FC , Víctor Mañas- Arsenal FC, Rubén Reyes- Rayo Vallecano de Madrid, Borja de Matías- Deportivo Alavés , Tino Luis Cabrera- Real Betis Balompié y Susana Ferreras- Arsenal FC',
+                date: '2019'
+            },
+            {
+                country: "spain",
+                logo: "hf",
+                description: 'VI Kurs Zaawansowanej Analizy Gry i Scoutingu w Piłce Nożnej organizowany przez Uniwersytet Camilo José Cela w Madrycie, Hi Futbol oraz SEK International Sports Academy (prelegenci: Carlos Dominguez, Francis Sanchez, Ruben Reyes, Pablo Lopez, Marco Tamarit, Adrian Esparraga, Matías Manna )',
+                date: '2018-2019'
+            },
+            {
                 country: "poland",
                 logo: "pzpn",
                 description: 'KURS UEFA A (Organizowany przez MZPN)',
-                date: 'obecnie'
+                date: '2018-2019'
             },
             {
                 country: "poland",
@@ -493,10 +505,22 @@ export const translationObject = {
         educationTitle: "Education",
         education: [
             {
+                country: "spain",
+                logo: "atletico",
+                description: 'Congress of Performance Analysis and New Developments in Football organized by Atlético de Madrid (speakers: Xabier Ruiz de Ocenda- Atlético de Madrid, Carles Planchart- Manchester City FC , Víctor Mañas- Arsenal FC, Rubén Reyes- Rayo Vallecano de Madrid, Borja de Matías- Deportivo Alavés , Tino Luis Cabrera- Real Betis Balompié y Susana Ferreras- Arsenal FC)',
+                date: '2019'
+            },
+            {
+                country: "spain",
+                logo: "hf",
+                description: 'VI Advanced Course on Analysis and Scouting in Football by Camilo José Cela University, Hi Futbol and SEK International Sports Academy (Speakers: Carlos Dominguez, Francis Sanchez, Ruben Reyes, Pablo Lopez, Marco Tamarit, Adrian Esparraga, Matías Manna )',
+                date: '2018-2019'
+            },
+            {
                 country: "poland",
                 logo: "pzpn",
                 description: 'Training Course: UEFA A organized by MZPN',
-                date: 'now'
+                date: '2018-2019'
             },
             {
                 country: "poland",
@@ -853,10 +877,22 @@ export const translationObject = {
         educationTitle: "Educación",
         education: [
             {
+                country: "spain",
+                logo: "atletico",
+                description: 'Congreso de Análisis de Rendimiento y Nuevos Desarrollos en el Fútbol (Ponentes: Xabier Ruiz de Ocenda- Atlético de Madrid, Carles Planchart- Manchester City FC , Víctor Mañas- Arsenal FC, Rubén Reyes- Rayo Vallecano de Madrid, Borja de Matías- Deportivo Alavés , Tino Luis Cabrera- Real Betis Balompié y Susana Ferreras- Arsenal FC)',
+                date: '2019'
+            },
+            {
+                country: "spain",
+                logo: "hf",
+                description: 'VI Curso Superior de Análisis y Scouting en Fútbol (Título oficial de la Universidad Camilo José Cela organizado y dirigido por HI Futbol y SEK International Sports Academy. Ponentes: Carlos Dominguez, Francis Sanchez, Ruben Reyes, Pablo Lopez, Marco Tamarit, Adrian Esparraga, Matías Manna )',
+                date: '2018-2019'
+            },
+            {
                 country: "poland",
                 logo: "pzpn",
                 description: 'Curso UEFA A organizado en MZPN',
-                date: 'ahora'
+                date: '2018-2019'
             },
             {
                 country: "poland",
