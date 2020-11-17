@@ -5,7 +5,8 @@
   "author": "Martyna Łagożna",
   "scripts": {
     "dev": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "license": "ISC",
   "dependencies": {
@@ -23,7 +24,7 @@
     "file-loader": "^1.1.6",
     "image-webpack-loader": "^4.4.0",
     "node-libs-browser": "^1.0.0",
-    "node-sass": "^4.8.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.0",
     "react": "^15.1.0",
     "react-addons-test-utils": "^15.1.0",

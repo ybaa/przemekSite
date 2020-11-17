@@ -10,10 +10,14 @@ import pzpnImg from '../../../images/pzpn.png';
 import tottenhamImg from '../../../images/tottenham.png';
 import polandImg from '../../../images/poland.png';
 import spainImg from '../../../images/spain.png';
+import latviaImg from '../../../images/latvia.png';
 import englandImg from '../../../images/england.png';
+import equadorImg from '../../../images/equador.png';
+import venezuelaImg from '../../../images/venezuela.png';
 import ajaxImg from '../../../images/ajax.png';
 import awfImg from '../../../images/awf.png';
 import wssImg from '../../../images/wss.png';
+import tukumsImg from '../../../images/tukums.png';
 import soccerServicesImg from '../../../images/soccerServices.png';
 import smsImg from '../../../images/sms.png';
 import legiaImg from '../../../images/legia.png';
@@ -21,6 +25,13 @@ import nikeImg from '../../../images/nike.png';
 import scoutsForFootballImg from '../../../images/scoutsForFootball.png';
 import hfImg from '../../../images/hf.png';
 import atleticoImg from '../../../images/atletico.png';
+import ekstraklasaImg from '../../../images/ekstraklasa.png';
+import asystentImg from '../../../images/asystent.png';
+import mzpnImg from '../../../images/mzpn.png';
+import mbpImg from '../../../images/mbp.png';
+import losCarmenImg from '../../../images/losCarmen.png';
+import duranImg from '../../../images/duran.png';
+import deductorImg from '../../../images/deductor.png';
 import FontAwesome from 'react-fontawesome';
 
 class TableComponent extends Component {
@@ -40,6 +51,15 @@ class TableComponent extends Component {
                     break;
                 case 'england':
                     countryImg = <img src={englandImg} />
+                    break;
+                case 'latvia':
+                    countryImg = <img src={latviaImg} />
+                    break;
+                case 'equador':
+                    countryImg = <img src={equadorImg} />
+                    break;
+                case 'venezuela':
+                    countryImg = <img src={venezuelaImg} />
                     break;
                 default:
                     countryImg='';
@@ -94,6 +114,30 @@ class TableComponent extends Component {
                     break;     
                 case 'hf':
                     clubImg = <img src={hfImg} />
+                    break;    
+                case 'tukums':
+                    clubImg = <img src={tukumsImg} />
+                    break;    
+                case 'ekstraklasa':
+                    clubImg = <img src={ekstraklasaImg} />
+                    break;          
+                case 'asystent':
+                    clubImg = <img src={asystentImg} />
+                    break;          
+                case 'mzpn':
+                    clubImg = <img src={mzpnImg} />
+                    break;          
+                case 'mbp':
+                    clubImg = <img src={mbpImg} />
+                    break;          
+                case 'losCarmen':
+                    clubImg = <img src={losCarmenImg} />
+                    break;          
+                case 'duran':
+                    clubImg = <img src={duranImg} />
+                    break;          
+                case 'deductor':
+                    clubImg = <img src={deductorImg} />
                     break;          
                 case 'none':
                     clubImg = ''

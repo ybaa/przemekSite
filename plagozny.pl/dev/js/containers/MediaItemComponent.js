@@ -13,6 +13,9 @@ import theTimesImg from '../../../images/theTimes.png';
 import tokImg from '../../../images/tok.png';
 import eurosportImg from '../../../images/eurosport.png';
 import polsatImg from '../../../images/polsat.png';
+import baltyckiFutbolImg from '../../../images/baltyckiFutbol.png';
+import newonceImg from '../../../images/newonce.png';
+import asystentImg from '../../../images/asystent.png';
 
 class MediaItemComponent extends Component {
     constructor(props){
@@ -73,12 +76,35 @@ class MediaItemComponent extends Component {
                 this.setState({
                     imageToLoad: polsatImg
                 })
-                break;           
+                break;
+            case "baltyckiFutbol":            
+                this.setState({
+                    imageToLoad: baltyckiFutbolImg
+                })
+                break;          
+            case "newonce":            
+                this.setState({
+                    imageToLoad: newonceImg
+                })
+                break;          
+            case "asystent":            
+                this.setState({
+                    imageToLoad: asystentImg
+                })
+                break;          
 
         } 
     }
     render() {       
-        let articleLink = this.props.articleLink.length > 0 ? <a href={this.props.articleLink} target="_blank"> {I18n.t('readFulfArticle').toUpperCase()} </a> : <p></p>;
+
+        // let articleLink = <p></p>
+        let articlesLinksProps = this.props.articleLink
+        let articlesLinks = Object.keys(articlesLinksProps).map( (key,id) => {
+            return articlesLinksProps[key].length > 0 ? <a href={articlesLinksProps[key]} target="_blank" key={id}> {I18n.t('readFulfArticle').toUpperCase()} </a> : <p></p>;   
+        })
+        
+        
+        // let articleLink = this.props.articleLink.length > 0 ? <a href={this.props.articleLink} target="_blank"> {I18n.t('readFulfArticle').toUpperCase()} </a> : <p></p>;   
         return (
             <div>                    
                 <Row> 
@@ -91,7 +117,10 @@ class MediaItemComponent extends Component {
                         <Col s={8} m={10}>
                             <h5>{this.props.title}</h5>
                             <p>{this.props.description}</p>
-                            {articleLink}
+                            <div>
+                                {articlesLinks} 
+                            </div>
+                            
                         </Col>
                     </Col>
                 </Row> 
@@ -105,7 +134,7 @@ MediaItemComponent.PropTypes = {
     imgName: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
-    articleLink: PropTypes.string
+    // articleLink: PropTypes.array
 };
 
 export default MediaItemComponent;
