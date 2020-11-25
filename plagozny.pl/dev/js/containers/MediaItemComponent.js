@@ -5,6 +5,7 @@ import { I18n } from 'react-redux-i18n';
 import PropTypes from 'prop-types';
 import oleImg from '../../../images/ole.png'
 import iplaImg from '../../../images/ipla.png';
+import polsatSportImg from '../../../images/polsatsport.png';
 import julenImg from '../../../images/julen.png';
 import legiaImg from '../../../images/legia.png';
 import legianetImg from '../../../images/legianet.png';
@@ -35,6 +36,11 @@ class MediaItemComponent extends Component {
             case "ipla":            
                 this.setState({
                     imageToLoad: iplaImg
+                })
+                break;
+            case "polsatSport":            
+                this.setState({
+                    imageToLoad: polsatSportImg
                 })
                 break;
             case "julen":            

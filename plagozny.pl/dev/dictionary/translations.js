@@ -25,10 +25,10 @@ export const translationObject = {
         readFulfArticle: 'Zobacz pełny materiał',
         media: [
             {
-                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
-                description: ' ',
+                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych',
+                description: 'UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             }, 
             {
                 title: 'Gość audycji „La Polemica”',
@@ -67,19 +67,19 @@ export const translationObject = {
                 title: 'PODSUMOWANIE FAZY GRUPOWEJ LIGII EUROPY-GRUPA G',
                 description: 'Analiza grupy G, pod kątem gry drużyny Glasgow Rangers FC',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-12-13/lagozny-legia-sportowo-byla-przygotowana-na-gre-w-fazie-grupowej/'],                
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'Komentarz podczas meczu fazy grupowej Ligii Europy Rangers FC –Young Boys',
                 description: 'Mecz dostępny na platformie Ipla',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALIZA GRY RYWALA – APOEL',
                 description: 'Materiał realizowany dla Telewizji Polsat wramach rundy play off Ligi Mistrzów UEFA',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-08-28/analityk-legii-warszawa-sam-chcialbym-znac-recepte-apoel-u-na-europejskie-puchary/'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALITYCY LEGII - zobacz jak wygląda codzienna praca działu analiz Legii Warszawa',
@@ -159,7 +159,7 @@ export const translationObject = {
                 title:  'Program "Atleci", odcinek 298',
                 description: 'Od 8:05 minuty rozpoczyna się materiał poświęcony moim spostrzeżeniom na temat specyfiki hiszpańskiej piłki nożnej',
                 link: ['https://www.ipla.tv/Magazyn-atleci-odcinek-298/vod-7394819#/r-5'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: "Julen Guerrero i Przemysław Łagożny - o piłce młodzieżowej",
@@ -406,8 +406,8 @@ export const translationObject = {
             {
                 country: 'latvia',
                 logo: 'tukums',
-                description: 'FK Tukums 2000 (Asystent Trenera)',
-                date: '2020-'
+                description: 'Asystent Trenrea w FK Tukums 2000 (praca przerwana z powodu Covid-19)',
+                date: '2020'
             },
             {
                 country: 'poland',
@@ -528,10 +528,10 @@ export const translationObject = {
         readFulfArticle: 'Check full article',
         media: [
             {
-                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
-                description: ' ',
+                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych',
+                description: 'UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             }, 
             {
                 title: 'Gość audycji „La Polemica”',
@@ -570,19 +570,19 @@ export const translationObject = {
                 title: 'PODSUMOWANIE FAZY GRUPOWEJ LIGII EUROPY-GRUPA G',
                 description: 'Analiza grupy G, pod kątem gry drużyny Glasgow Rangers FC',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-12-13/lagozny-legia-sportowo-byla-przygotowana-na-gre-w-fazie-grupowej/'],                
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'Komentarz podczas meczu fazy grupowej Ligii Europy Rangers FC –Young Boys',
                 description: 'Mecz dostępny na platformie Ipla',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALIZA GRY RYWALA – APOEL',
                 description: 'Materiał realizowany dla Telewizji Polsat wramach rundy play off Ligi Mistrzów UEFA',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-08-28/analityk-legii-warszawa-sam-chcialbym-znac-recepte-apoel-u-na-europejskie-puchary/'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALITYCY LEGII - zobacz jak wygląda codzienna praca działu analiz Legii Warszawa',
@@ -662,7 +662,7 @@ export const translationObject = {
                 title:  'Program "Atleci", odcinek 298',
                 description: 'Od 8:05 minuty rozpoczyna się materiał poświęcony moim spostrzeżeniom na temat specyfiki hiszpańskiej piłki nożnej',
                 link: ['https://www.ipla.tv/Magazyn-atleci-odcinek-298/vod-7394819#/r-5'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: "Julen Guerrero i Przemysław Łagożny - o piłce młodzieżowej",
@@ -909,14 +909,14 @@ export const translationObject = {
             {
                 country: 'latvia',
                 logo: 'tukums',
-                description: 'FK Tukums 2000 (assistant coach)',
-                date: '2020-'
+                description: 'Assistant Coach in FK Tukums 2000 (project finished due to Covid-19 pandemic)',
+                date: '2020'
             },
             {
                 country: 'poland',
                 logo: 'legia',
                 description: 'The first team Legia Warsaw (coach- analyst)',
-                date: '2017-'
+                date: '2017-2020'
             },
             {
                 country: 'poland',
@@ -1031,10 +1031,10 @@ export const translationObject = {
         readFulfArticle: 'Mira todos los detalles',
         media: [
             {
-                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
-                description: ' ',
+                title: 'Ekspert i komentator pracujący między innymi przy wydarzeniach sportowych',
+                description: 'UEFA CHAMPIONS LEAGUE, UEFA EUROPA LEAGUE, UEFA NATIONS LEAGUE oraz innych ligach zagranicznych jak również Fortuna 1 Liga.',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             }, 
             {
                 title: 'Gość audycji „La Polemica”',
@@ -1046,7 +1046,7 @@ export const translationObject = {
             }, 
             {
                 title: 'Gość programu „Do jednej bramki” 19.10.2020r',
-                description: 'Mecz dostępny na platformie Ipla',
+                description: 'Materiał dostępny na platformie Ipla',
                 link: [
                     ''
                 ],
@@ -1073,19 +1073,19 @@ export const translationObject = {
                 title: 'PODSUMOWANIE FAZY GRUPOWEJ LIGII EUROPY-GRUPA G',
                 description: 'Analiza grupy G, pod kątem gry drużyny Glasgow Rangers FC',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-12-13/lagozny-legia-sportowo-byla-przygotowana-na-gre-w-fazie-grupowej/'],                
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'Komentarz podczas meczu fazy grupowej Ligii Europy Rangers FC –Young Boys',
                 description: 'Mecz dostępny na platformie Ipla',
                 link: [''],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALIZA GRY RYWALA – APOEL',
                 description: 'Materiał realizowany dla Telewizji Polsat wramach rundy play off Ligi Mistrzów UEFA',
                 link: ['https://www.polsatsport.pl/wiadomosc/2019-08-28/analityk-legii-warszawa-sam-chcialbym-znac-recepte-apoel-u-na-europejskie-puchary/'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: 'ANALITYCY LEGII - zobacz jak wygląda codzienna praca działu analiz Legii Warszawa',
@@ -1165,7 +1165,7 @@ export const translationObject = {
                 title:  'Program "Atleci", odcinek 298',
                 description: 'Od 8:05 minuty rozpoczyna się materiał poświęcony moim spostrzeżeniom na temat specyfiki hiszpańskiej piłki nożnej',
                 link: ['https://www.ipla.tv/Magazyn-atleci-odcinek-298/vod-7394819#/r-5'],
-                imgName: 'ipla'
+                imgName: 'polsatSport'
             },
             {
                 title: "Julen Guerrero i Przemysław Łagożny - o piłce młodzieżowej",
@@ -1412,14 +1412,14 @@ export const translationObject = {
             {
                 country: 'latvia',
                 logo: 'tukums',
-                description: 'FK Tukums 2000 (segundo entrenador)',
-                date: '2020-'
+                description: 'Segundo Entrenador en el FK Tukums 2000 (Debido a la pandemia del COVID-19 el trabajo quedó anulado)',
+                date: '2020'
             },
             {
                 country: 'poland',
                 logo: 'legia',
                 description: 'Legia de Varsovia I equipo (entrenador-analista)',
-                date: '2017-'
+                date: '2017-2020'
             },
             {
                 country: 'poland',
